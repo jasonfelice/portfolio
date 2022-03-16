@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3C3A39;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+#menu-button {
+    background: url(images/Icons/Union.png) no-repeat center center/cover;
+    width: 18px;
+    height: 12px;
+}
+.social-icons{
+    border: 2px solid rgb(255, 255, 255);
+    width: 150px;
+    height: 20px;
+}
+#intro{
+    background-color: #1C1A19;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
