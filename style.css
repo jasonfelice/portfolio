@@ -24,7 +24,7 @@ header {
 .social-icons{
   width: 150px;
   height: 20px;
-  background: url(images/Icons/social.png) no-repeat center center/cover;
+  display: flex;
 }
 #intro{
   background-color: #1C1A19;
@@ -53,4 +53,22 @@ header {
 }
 #intro-content {
   margin-bottom: 12px;
+}
+social-icons a {
+  display: block;
+}
+#medium {
+  background: url(images/Icons/social/medium.png) no-repeat center center/cover;
+}
+#twitter {
+  background: url(images/Icons/social/twitter.png) no-repeat center center/cover;
+}
+#logo {
+  background: url(images/Icons/social/logo.png) no-repeat center center/cover;
+}
+#linkedin {
+  background: url(images/Icons/social/linkedin.png) no-repeat center center/cover;
+}
+#github {
+  background: url(images/Icons/social/github.png) no-repeat center center/cover;
 }
