@@ -11,7 +11,7 @@ header {
   align-items: center;
 }
 
-#logo {
+#head_logo {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #fff;
@@ -21,12 +21,12 @@ header {
   width: 18px;
   height: 12px;
 }
-.social-icons{
+.social-icons {
   width: 150px;
   height: 20px;
   display: flex;
 }
-#intro{
+#intro {
   background-color: #1C1A19;
   height: 80vh;
   padding: 24px;
