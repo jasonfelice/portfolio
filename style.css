@@ -15,6 +15,7 @@ header {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #fff;
+  text-decoration: none;
 }
 
 #menu-button {
@@ -24,10 +25,24 @@ header {
 }
 
 .social-icons {
-  width: 150px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   display: flex;
 }
+
+.social-icons ul {
+  display: flex;
+  width: 150px;
+  height: 20px;
+  list-style: none;
+}
+
+.social-icons ul li {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
 #intro {
   background-color: #1c1a19;
   height: 80vh;
