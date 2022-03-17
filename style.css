@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3c3a39;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#head_logo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu-button {
+  background: url(images/Icons/Union.png) no-repeat center center/cover;
+  width: 18px;
+  height: 12px;
+}
+
+.social-icons {
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+.social-icons ul {
+  display: flex;
+  width: 150px;
+  height: 20px;
+  list-style: none;
+}
+
+.social-icons ul li {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+#intro {
+  background-color: #1c1a19;
+  height: 80vh;
+  padding: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#intro::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(images/Illustration.png) no-repeat center center/cover;
+  background-size: 184px 440px;
+  top: 17vh;
+  left: 27vw;
+  z-index: 1;
+}
+
+#intro-content h1 {
+  color: #ff6b00;
+  font-size: 3.5rem;
+  font-family: 'Crete Round', serif;
+  margin-bottom: 12px;
+}
+
+#intro-content h3 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 12px;
+}
+
+#intro-content p {
+  color: #fff;
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: -1px 1px 1px black;
+}
+
+#intro-content {
+  margin-bottom: 12px;
+  z-index: 2;
+}
+
+.social-icons a {
+  display: block;
+}
+
+#medium {
+  background: url(images/Icons/social/medium.png) no-repeat center center/cover;
+}
+
+#twitter {
+  background: url(images/Icons/social/twitter.png) no-repeat center center/cover;
+}
+
+#logo {
+  background: url(images/Icons/social/logo.png) no-repeat center center/cover;
+}
+
+#linkedin {
+  background: url(images/Icons/social/linkedin.png) no-repeat center center/cover;
+}
+
+#github {
+  background: url(images/Icons/social/github.png) no-repeat center center/cover;
+}
