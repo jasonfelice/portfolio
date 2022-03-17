@@ -13,7 +13,7 @@ This webpage has two sections:
 - HTML
 - CSS
 ## Live Demo
-[Live Demo Link](https://htmlpreview.github.io/?https://github.com/jasonfelice/portfolio/blob/portfolio-web-ui/index.html)
+[Live Demo Link](https://htmlpreview.github.io/?https://github.com/jasonfelice/portfolio/blob/main/index.html)
 
 To get a local copy up and running follow these simple example steps.
 - Copy this [link](https://github.com/jasonfelice/portfolio)
