@@ -116,8 +116,32 @@ header {
   background: url(images/Icons/social/github.png) no-repeat center center/cover;
 }
 
-/* ==============================================================================================  */
-/* =========================================================================================== */
+/* Portfolio Section  */
+
+#work {
+  font-family: 'Crete Round', serif;
+}
+
+.heading {
+  margin-top: 120px;
+  text-align: center;
+  color: #1c1a19;
+  font-size: 40px;
+}
+
+.horizontal-seperator {
+  border: 1px solid #21212180;
+  border-radius: 5px;
+  margin: 24px 24px 80px;
+}
+
+.work-card-container {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+/* Frst card  */
 
 .first-card {
   width: 327px;
@@ -127,14 +151,8 @@ header {
   align-items: center;
 }
 
-.image {
-  width: 295px;
-  height: 237px;
-  background: #FF6B00;
-}
-
 .content h1 {
-  color: #091E42;
+  color: #091e42;
 }
 
 .content {
@@ -156,7 +174,7 @@ header {
 }
 
 .languages li {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   padding: 10px 12px;
 }
 
@@ -169,23 +187,23 @@ header {
   padding: 12px;
   font-size: 17px;
   font-weight: 700;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   color: #fff;
 }
 
-#see-project-button-first:hover{
-  border: 1px solid #F55800;
-  background-color: #FFF5E1;
-  color: #F55800;
+#see-project-button-first:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
-#see-project-button-first:active{
-  background-color: #E05304;
-  color: #F4F1F0;
+#see-project-button-first:active {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 #see-project-button-first:disabled {
   border: 1px solid transparent;
-  color: #5B5957;
-  background-color: #F4F1F0;
+  color: #5b5957;
+  background-color: #f4f1f0;
 }
