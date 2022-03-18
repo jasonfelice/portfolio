@@ -72,7 +72,7 @@ header {
   background-size: 184px 440px;
   top: 17vh;
   left: 27vw;
-  z-index: 1;
+  z-index: 1;  
 }
 
 #intro-content h1 {
@@ -313,9 +313,16 @@ header {
 }
 
 .about-me-introduction {
-  margin: 0 24px;
-  margin-bottom: 205px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.about-me-introduction-content {
   height: 200px;
+  margin: 0 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -334,6 +341,10 @@ h2 {
   font-weight: 600;
   color: #fff;
   font-family: "Inter", sans-serif;
+}
+
+#skills h2 {
+  margin-right: 20px;
 }
 
 .about-section-content {
@@ -390,4 +401,11 @@ h2 {
   background-color: #ff6b00;
   margin-right: 12px;
   border-radius: 50%;
+}
+
+.background-graphic {
+  width: 150px;
+  height: 230px;
+  background: url(images/about-section-Illustration.png) no-repeat center center/cover;
+  align-self: flex-end;
 }
