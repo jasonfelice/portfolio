@@ -5,6 +5,11 @@
 
 p {
   font-family: 'Inter', sans-serif;
+  line-height: 24px;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -120,7 +125,7 @@ header {
   background: url(images/Icons/social/github.png) no-repeat center center/cover;
 }
 
-/* Portfolio Section  */
+/* Portfolio Section */
 
 #work {
   font-family: 'Crete Round', serif;
@@ -146,7 +151,7 @@ header {
   gap: 24px 0;
 }
 
-/* Frst card  */
+/* Frst card */
 
 .first-card {
   width: 327px;
@@ -217,7 +222,7 @@ header {
   background-color: #f4f1f0;
 }
 
-/* Other Cards  */
+/* Other Cards */
 
 .cards {
   background: url(images/portfolio/other-background-placeholder.png) no-repeat center center/cover;
@@ -253,6 +258,7 @@ header {
 
 .see-project-button {
   border: 1px solid transparent;
+  line-height: 24px;
   padding: 12px;
   font-size: 17px;
   font-weight: 700;
@@ -275,4 +281,43 @@ header {
   border: 1px solid transparent;
   color: #5b5957;
   background-color: #f4f1f0;
+}
+
+/* About me Section */
+
+#about-me {
+  margin-top: 120px;
+  padding-top: 120px;
+  background-color: #1c1a19;
+  font-family: 'Crete Round', serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-heading {
+  color: #ff6b00;
+  font-size: 72px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.horizontal-seperator-on-dark {
+  border: .5px solid #f5f5f5;
+  border-radius: 5px;
+  margin: 24px 24px 80px;
+} 
+
+#about-me p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.about-me-introduction {
+  margin: 0 24px;
+  margin-bottom: 205px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
