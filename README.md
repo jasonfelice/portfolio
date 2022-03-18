@@ -7,13 +7,15 @@ My portfolio webpage
 This webpage has two sections:
 1. Header
 2. Title section
+3. Portfolio section
+4. About section
 
 ## Built With
 
 - HTML
 - CSS
 ## Live Demo
-[Live Demo Link](https://htmlpreview.github.io/?https://github.com/jasonfelice/portfolio/blob/main/index.html)
+[Live Demo Link](https://htmlpreview.github.io/?https://github.com/jasonfelice/portfolio/blob/works-about-section/index.html)
 
 To get a local copy up and running follow these simple example steps.
 - Copy this [link](https://github.com/jasonfelice/portfolio)
