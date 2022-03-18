@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +11,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Jake's Portfolio</title>
+    <style>
+        #work{
+            font-family: 'Crete Round', serif;
+        }
+
+        .heading {
+            margin-top: 120px;
+            text-align: center;
+            color: #1c1a19;
+            font-size: 40px;
+        }
+        
+        .horizontal-seperator {
+            border: 1px solid #21212180;
+            border-radius: 5px;
+            margin: 24px 24px 80px;
+        }
+
+        .work-card-container {
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <a href="#" id="head_logo">Jake Felice</a>
@@ -22,17 +51,43 @@
         <div id="intro-content">
             <h1>Hey There. I'm Jake</h1>
             <h3>I am a Software Developer</h3>
-            <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            <p>I can help you build a product , feature or website Look through some of my work and experience! If you
+                like what you see and have a project you need coded, don’t hestiate to contact me.</p>
         </div>
         <div class="social-icons">
             <ul>
-                <li><a target="_blank" rel="noopener" href="https://medium.com/" class="social-icons" id="medium"></a></li>
-                <li><a target="_blank" rel="noopener" href="https://twitter.com/jasonfelice0" class="social-icons" id="twitter"></a></li>
+                <li><a target="_blank" rel="noopener" href="https://medium.com/" class="social-icons" id="medium"></a>
+                </li>
+                <li><a target="_blank" rel="noopener" href="https://twitter.com/jasonfelice0" class="social-icons"
+                        id="twitter"></a></li>
                 <li><a target="_blank" rel="noopener" href="#" class="social-icons" id="logo"></a></li>
-                <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jason-felice-11a5a622b/" class="social-icons" id="linkedin"></a></li>
-                <li><a target="_blank" rel="noopener" href="https://github.com/jasonfelice" class="social-icons" id="github"></a></li>
-            </ul>    
+                <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jason-felice-11a5a622b/"
+                        class="social-icons" id="linkedin"></a></li>
+                <li><a target="_blank" rel="noopener" href="https://github.com/jasonfelice" class="social-icons"
+                        id="github"></a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="work">
+        <h1 class="heading">My Recent Works</h1>
+        <hr class="horizontal-seperator">
+        <div class="work-card-container">
+            <div class="first-card">
+                <div class="image"></div>
+                <div class="content">
+                  <h1>Multi-Post Stories</h1>
+                  <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                  <ul class="languages">
+                    <li><span>css</span></li>
+                    <li><span>html</span></li>
+                    <li><span>bootstrap</span></li>
+                    <li><span>Ruby</span></li>
+                  </ul>
+                  <button id="see-project-button-first" type="button">See Project</button>
+                </div>
+              </div>
         </div>
     </section>
 </body>
+
 </html>
