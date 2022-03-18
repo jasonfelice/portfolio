@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+p {
+  font-family: 'Inter', sans-serif;
+}
+
 header {
   background-color: #3c3a39;
   padding: 12px 24px;
@@ -139,6 +143,7 @@ header {
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
+  gap: 24px 0;
 }
 
 /* Frst card  */
@@ -151,11 +156,13 @@ header {
   align-items: center;
 }
 
-.content h1 {
+.content-one h1 {
   color: #091e42;
+  font-weight: 100;
+  font-size: 32px;
 }
 
-.content {
+.content-one {
   width: 295px;
   display: flex;
   flex-direction: column;
@@ -167,7 +174,7 @@ header {
 .languages {
   list-style: none;
   display: flex;
-  gap: 0 5px;
+  gap: 0 12px;
   font-size: 15px;
   font-weight: 500;
   padding: 0;
@@ -176,6 +183,8 @@ header {
 .languages li {
   border: 1px solid #8993a4;
   padding: 10px 12px;
+  background-color: #ffffff3a;
+  font-family: 'Inter', sans-serif;
 }
 
 .languages li:hover {
@@ -203,6 +212,66 @@ header {
 }
 
 #see-project-button-first:disabled {
+  border: 1px solid transparent;
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+/* Other Cards  */
+
+.cards {
+  background: url(images/portfolio/other-background-placeholder.png) no-repeat center center/cover;
+  height: 400px;
+  width: 327px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 84px;
+}
+
+.content {
+  display: flex;
+  width: 295px;
+  margin: 0 16px;
+  color: #fff;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.content h1 {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.other-cards-info li {
+  border: 1px solid transparent;
+  padding: 10px 12px;
+  background-color: #ffffff3a;
+}
+
+.see-project-button {
+  border: 1px solid transparent;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ff6b00;
+}
+
+.see-project-button:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.see-project-button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.see-project-button:disabled {
   border: 1px solid transparent;
   color: #5b5957;
   background-color: #f4f1f0;
