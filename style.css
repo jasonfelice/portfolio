@@ -321,3 +321,73 @@ header {
   align-items: flex-start;
   justify-content: space-between;
 }
+
+.list-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.about-section-content {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px 0;
+}
+
+.about-section-content li {
+  font-size: 22px;
+}
+
+.language-section {
+  display: flex;
+  flex-direction: column;
+  gap: 44px 0;
+}
+
+.about-myself {
+  text-align: center;
+}
+
+#skill-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+}
+
+/* Utility */
+
+.diamond {
+  height: 18px;
+  width: 18px;
+  background-color: #ff6b00;
+  margin-right: 12px;
+  margin-top: 5px;
+  transform: rotate(45deg);
+}
+
+.square {
+  height: 18px;
+  width: 18px;
+  background-color: #ff6b00;
+  margin-right: 12px;
+}
+
+.circle {
+  height: 18px;
+  width: 18px;
+  background-color: #ff6b00;
+  margin-right: 12px;
+  border-radius: 50%;
+}
