@@ -4,12 +4,12 @@
 }
 
 p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 24px;
 }
 
 button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 header {
@@ -21,7 +21,7 @@ header {
 }
 
 #head_logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #fff;
   text-decoration: none;
@@ -50,7 +50,7 @@ header {
   border: 1px solid #8993a4;
   padding: 10px 12px;
   background-color: #ffffff3a;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .other-cards-info li {
@@ -106,21 +106,22 @@ header {
 #intro-content h1 {
   color: #ff6b00;
   font-size: 3.5rem;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   margin-bottom: 12px;
 }
 
 #intro-content h3 {
   color: #fff;
   font-size: 1.8rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 12px;
 }
 
 #intro-content p {
   color: #fff;
   font-size: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-shadow: -1px 1px 1px black;
 }
 
@@ -146,7 +147,8 @@ header {
 }
 
 #linkedin {
-  background: url(images/Icons/social/linkedin.png) no-repeat center center/cover;
+  background: url(images/Icons/social/linkedin.png) no-repeat center
+    center/cover;
 }
 
 #github {
@@ -156,7 +158,7 @@ header {
 /* Portfolio Section */
 
 #work {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 .heading {
@@ -240,7 +242,8 @@ header {
 /* Other Cards */
 
 .cards {
-  background: url(images/portfolio/other-background-placeholder.png) no-repeat center center/cover;
+  background: url(images/portfolio/other-background-placeholder.png) no-repeat
+    center center/cover;
   height: 400px;
   width: 327px;
   box-sizing: border-box;
@@ -294,7 +297,7 @@ header {
   padding-bottom: 120px;
   padding-top: 120px;
   background-color: #1c1a19;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   display: flex;
   flex-direction: column;
 }
@@ -353,7 +356,7 @@ h2 {
 }
 
 .about-section-content {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   list-style: none;
   display: flex;
@@ -407,7 +410,8 @@ h2 {
 .background-graphic {
   width: 150px;
   height: 230px;
-  background: url(images/about-section-Illustration.png) no-repeat center center/cover;
+  background: url(images/about-section-Illustration.png) no-repeat center
+    center/cover;
   align-self: flex-end;
 }
 
@@ -415,7 +419,6 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 70px 0;
 }
 
 #contact-me p {
@@ -467,7 +470,27 @@ form ul li input {
   height: 114px;
   background-color: #fbf8f7;
   font-size: 15px;
+  border: none;
   line-height: 24px;
+  outline: none;
   font-weight: 400;
   padding: 12px;
+}
+.btn {
+  align-self: center;
+}
+.footer-icon ul {
+  display: flex;
+  align-self: center;
+  list-style: none;
+}
+.footer-icon ul li a {
+  filter: invert(100%);
+}
+.divider {
+  border: 1px solid #dfe1e6;
+  display: inline;
+  width: 100%;
+  margin-top: 124px;
+  margin-bottom: 25px;
 }
