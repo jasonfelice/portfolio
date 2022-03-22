@@ -203,16 +203,16 @@
     <section id="contact-me">
         <div class="end-wrapper">
         <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-        <form action="">
+        <form action="https://formspree.io/f/mdobdvjd" method="post">
             <ul>
                 <li>
-                    <input type="text" name="fullName" placeholder="Full name">
+                    <input type="text" name="fullName" placeholder="Full name" required maxlength="30" >
                 </li>
                 <li>
-                    <input type="email" name="email" placeholder="Email">
+                    <input type="email" name="email" placeholder="Email" required>
                 </li>
                 <li>
-                    <textarea name="message" placeholder="Enter text here"></textarea>
+                    <textarea name="message" placeholder="Enter text here" required maxlength="500"></textarea>
                 </li>
                 <li class="btn">
                     <button type="submit" class="see-project-button">Get in touch</button>
