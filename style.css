@@ -291,6 +291,7 @@ header {
 
 #about-me {
   margin-top: 120px;
+  padding-bottom: 120px;
   padding-top: 120px;
   background-color: #1c1a19;
   font-family: 'Crete Round', serif;
@@ -408,4 +409,14 @@ h2 {
   height: 230px;
   background: url(images/about-section-Illustration.png) no-repeat center center/cover;
   align-self: flex-end;
+}
+
+#contact-me p {
+  margin-top: 120px;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
 }
