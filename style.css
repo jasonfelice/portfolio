@@ -430,9 +430,44 @@ h2 {
 
 form ul li {
   list-style: none;
+  display: flex;
 }
 
 #contact-me form ul {
   display: flex;
   flex-direction: column;
+  gap: 36px 0;
+}
+
+#contact-me form {
+  align-self: stretch;
+}
+
+form ul li input {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  outline: none;
+  padding: 14px 16px;
+  flex: 1;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.end-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px 0;
+  margin: 0 24px;
+}
+
+#contact-me form li textarea {
+  width: 100%;
+  height: 114px;
+  background-color: #fbf8f7;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 12px;
 }
