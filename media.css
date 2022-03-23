@@ -8,9 +8,27 @@
 
     #intro-content {
         order: 2;
+        width: 50%;
     }
     
     .intro-icons {
         flex-direction: column-reverse;
+    }
+
+    #intro-content h1 {
+        font-size: 72px;
+        line-height: 81px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #intro-content {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #intro-content {
+        width: 30%;
     }
 }

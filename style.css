@@ -36,6 +36,7 @@ header {
 .intro-icons {
   list-style: none;
   display: flex;
+  z-index: 2;
 }
 
 .social-icons {
@@ -79,7 +80,7 @@ form ul li {
 
 #intro {
   background-color: #1c1a19;
-  height: 80vh;
+  height: 70vh;
   padding: 24px;
   position: relative;
   display: flex;
@@ -117,6 +118,7 @@ form ul li {
   font-size: 3.5rem;
   font-family: "Crete Round", serif;
   margin-bottom: 12px;
+  font-weight: 400;
 }
 
 #intro-content h3 {
