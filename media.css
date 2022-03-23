@@ -6,6 +6,12 @@
         gap: 0 70px;
     }
 
+    #intro::after {
+        background: url(images/illustration-desktop.svg) no-repeat right top/cover;
+        background-size: 380px 500px;
+        top: 0;
+    }
+
     #intro-content {
         order: 2;
         width: 50%;
@@ -25,10 +31,18 @@
     #intro-content {
         width: 40%;
     }
+
+    #intro::after {
+        background-size: 620px 676px;
+    }
 }
 
 @media screen and (min-width: 1500px) {
     #intro-content {
         width: 30%;
+    }
+
+    #intro::after {
+        background-size: 800px 760px;
     }
 }
