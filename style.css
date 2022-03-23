@@ -437,6 +437,12 @@ h2 {
   color: #172b4d;
 }
 
+.footer-icon ul {
+  display: flex;
+  align-self: center;
+  list-style: none;
+}
+
 #contact-me form ul {
   display: flex;
   flex-direction: column;
@@ -480,12 +486,6 @@ form ul li input {
 
 .btn {
   align-self: center;
-}
-
-.footer-icon ul {
-  display: flex;
-  align-self: center;
-  list-style: none;
 }
 
 .divider {
