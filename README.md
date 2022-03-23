@@ -9,11 +9,13 @@ This webpage has two sections:
 2. Title section
 3. Portfolio section
 4. About section
+5. Contact Form
 
 ## Built With
 
 - HTML
 - CSS
+
 ## Live Demo
 [Live Demo Link](https://htmlpreview.github.io/?https://github.com/jasonfelice/portfolio/blob/main/index.html)
 
