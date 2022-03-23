@@ -87,8 +87,9 @@ header {
   height: 100%;
   background: url(images/Illustration.png) no-repeat center center/cover;
   background-size: 184px 440px;
+  background-position: right;
   top: 17vh;
-  left: 27vw;
+  left: 0vw;
   z-index: 1;
 }
 
@@ -476,21 +477,25 @@ form ul li input {
   font-weight: 400;
   padding: 12px;
 }
+
 .btn {
   align-self: center;
 }
+
 .footer-icon ul {
   display: flex;
   align-self: center;
   list-style: none;
 }
+
 .footer-icon ul li a {
-  filter: invert(100%);
+  filter: invert(70%);
 }
+
 .divider {
   border: 1px solid #dfe1e6;
   display: inline;
-  width: 100%;
+  width: 99%;
   margin-top: 124px;
   margin-bottom: 25px;
 }
