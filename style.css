@@ -33,6 +33,11 @@ header {
   height: 12px;
 }
 
+.intro-icons {
+  list-style: none;
+  display: flex;
+}
+
 .social-icons {
   width: 40px;
   height: 40px;
@@ -41,8 +46,6 @@ header {
 
 .social-icons ul {
   display: flex;
-  width: 150px;
-  height: 20px;
   list-style: none;
 }
 
@@ -140,23 +143,23 @@ form ul li {
 }
 
 .medium {
-  background: url(images/Icons/social/medium.png) no-repeat center center/cover;
+  background: url(images/Icons/social/medium.png) no-repeat;
 }
 
 .twitter {
-  background: url(images/Icons/social/twitter.png) no-repeat center center/cover;
+  background: url(images/Icons/social/twitter.png) no-repeat;
 }
 
 .logo {
-  background: url(images/Icons/social/logo.png) no-repeat center center/cover;
+  background: url(images/Icons/social/logo.png) no-repeat;
 }
 
 .linkedin {
-  background: url(images/Icons/social/linkedin.png) no-repeat center center/cover;
+  background: url(images/Icons/social/linkedin.png) no-repeat;
 }
 
 .github {
-  background: url(images/Icons/social/github.png) no-repeat center center/cover;
+  background: url(images/Icons/social/github.png) no-repeat;
 }
 
 .footer-icon ul li a {

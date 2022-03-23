@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+    #intro {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0 70px;
+    }
+
+    #intro-content {
+        order: 2;
+    }
+    
+    .intro-icons {
+        flex-direction: column-reverse;
+    }
+}
