@@ -46,6 +46,11 @@ header {
   list-style: none;
 }
 
+form ul li {
+  list-style: none;
+  display: flex;
+}
+
 .languages li {
   border: 1px solid #8993a4;
   padding: 10px 12px;
@@ -89,7 +94,7 @@ header {
   background-size: 184px 440px;
   background-position: right;
   top: 17vh;
-  left: 0vw;
+  left: 0;
   z-index: 1;
 }
 
@@ -121,8 +126,7 @@ header {
 #intro-content p {
   color: #fff;
   font-size: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Inter", sans-serif;
   text-shadow: -1px 1px 1px black;
 }
 
@@ -135,25 +139,28 @@ header {
   display: block;
 }
 
-#medium {
+.medium {
   background: url(images/Icons/social/medium.png) no-repeat center center/cover;
 }
 
-#twitter {
+.twitter {
   background: url(images/Icons/social/twitter.png) no-repeat center center/cover;
 }
 
-#logo {
+.logo {
   background: url(images/Icons/social/logo.png) no-repeat center center/cover;
 }
 
-#linkedin {
-  background: url(images/Icons/social/linkedin.png) no-repeat center
-    center/cover;
+.linkedin {
+  background: url(images/Icons/social/linkedin.png) no-repeat center center/cover;
 }
 
-#github {
+.github {
   background: url(images/Icons/social/github.png) no-repeat center center/cover;
+}
+
+.footer-icon ul li a {
+  filter: invert(70%);
 }
 
 /* Portfolio Section */
@@ -243,8 +250,7 @@ header {
 /* Other Cards */
 
 .cards {
-  background: url(images/portfolio/other-background-placeholder.png) no-repeat
-    center center/cover;
+  background: url(images/portfolio/other-background-placeholder.png) no-repeat center center/cover;
   height: 400px;
   width: 327px;
   box-sizing: border-box;
@@ -411,8 +417,7 @@ h2 {
 .background-graphic {
   width: 150px;
   height: 230px;
-  background: url(images/about-section-Illustration.png) no-repeat center
-    center/cover;
+  background: url(images/about-section-Illustration.png) no-repeat center center/cover;
   align-self: flex-end;
 }
 
@@ -422,7 +427,7 @@ h2 {
   align-items: center;
 }
 
-#contact-me p {
+#contact-me h2 {
   margin-top: 120px;
   font-family: "Inter", sans-serif;
   font-size: 32px;
@@ -430,11 +435,6 @@ h2 {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-}
-
-form ul li {
-  list-style: none;
-  display: flex;
 }
 
 #contact-me form ul {
@@ -486,10 +486,6 @@ form ul li input {
   display: flex;
   align-self: center;
   list-style: none;
-}
-
-.footer-icon ul li a {
-  filter: invert(70%);
 }
 
 .divider {
