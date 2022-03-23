@@ -28,6 +28,18 @@
 }
 
 @media screen and (min-width: 1024px) {
+    header {
+        padding: 25px 100px;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #main-nav {
+        display: block;
+    }
+    
     #intro-content {
         width: 40%;
     }
@@ -38,6 +50,10 @@
 }
 
 @media screen and (min-width: 1500px) {
+    header {
+        padding: 25px 155px;
+    }
+    
     #intro-content {
         width: 30%;
     }

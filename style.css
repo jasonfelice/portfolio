@@ -12,6 +12,31 @@ button {
   font-family: "Inter", sans-serif;
 }
 
+#main-nav {
+  display: none;
+}
+
+#main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 0 32px;
+}
+
+#main-nav ul a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+.message-button {
+  background: url(images/Icons/message-icon.svg) no-repeat center center/cover;
+  width: 22px;
+  height: 18px;
+  display: block;
+}
+
 header {
   background-color: #3c3a39;
   padding: 12px 24px;
