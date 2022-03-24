@@ -12,6 +12,50 @@ button {
   font-family: "Inter", sans-serif;
 }
 
+#main-nav {
+  display: none;
+}
+
+.social-icons ul {
+  display: flex;
+  list-style: none;
+}
+
+.social-icons a {
+  display: block;
+}
+
+.footer-icon ul li a {
+  filter: invert(70%);
+}
+
+.footer-icon ul {
+  display: flex;
+  align-self: center;
+  list-style: none;
+}
+
+#main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 0 32px;
+}
+
+#main-nav ul a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+.message-button {
+  background: url(images/Icons/message-icon.svg) no-repeat center center/cover;
+  width: 22px;
+  height: 18px;
+  display: block;
+}
+
 header {
   background-color: #3c3a39;
   padding: 12px 24px;
@@ -33,17 +77,16 @@ header {
   height: 12px;
 }
 
+.intro-icons {
+  list-style: none;
+  display: flex;
+  z-index: 2;
+}
+
 .social-icons {
   width: 40px;
   height: 40px;
   display: flex;
-}
-
-.social-icons ul {
-  display: flex;
-  width: 150px;
-  height: 20px;
-  list-style: none;
 }
 
 form ul li {
@@ -76,7 +119,7 @@ form ul li {
 
 #intro {
   background-color: #1c1a19;
-  height: 80vh;
+  height: 70vh;
   padding: 24px;
   position: relative;
   display: flex;
@@ -114,6 +157,7 @@ form ul li {
   font-size: 3.5rem;
   font-family: "Crete Round", serif;
   margin-bottom: 12px;
+  font-weight: 400;
 }
 
 #intro-content h3 {
@@ -135,35 +179,31 @@ form ul li {
   z-index: 2;
 }
 
-.social-icons a {
-  display: block;
-}
-
 .medium {
-  background: url(images/Icons/social/medium.png) no-repeat center center/cover;
+  background: url(images/Icons/social/medium.png) no-repeat;
 }
 
 .twitter {
-  background: url(images/Icons/social/twitter.png) no-repeat center center/cover;
+  background: url(images/Icons/social/twitter.png) no-repeat;
 }
 
 .logo {
-  background: url(images/Icons/social/logo.png) no-repeat center center/cover;
+  background: url(images/Icons/social/logo.png) no-repeat;
 }
 
 .linkedin {
-  background: url(images/Icons/social/linkedin.png) no-repeat center center/cover;
+  background: url(images/Icons/social/linkedin.png) no-repeat;
 }
 
 .github {
-  background: url(images/Icons/social/github.png) no-repeat center center/cover;
-}
-
-.footer-icon ul li a {
-  filter: invert(70%);
+  background: url(images/Icons/social/github.png) no-repeat;
 }
 
 /* Portfolio Section */
+
+#first-work-image-desktop {
+  display: none;
+}
 
 #work {
   font-family: "Crete Round", serif;
@@ -174,6 +214,7 @@ form ul li {
   text-align: center;
   color: #1c1a19;
   font-size: 40px;
+  font-weight: 400;
 }
 
 .horizontal-seperator {
@@ -192,11 +233,10 @@ form ul li {
 /* Frst card */
 
 .first-card {
-  width: 327px;
-  height: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 24px 0;
 }
 
 .content-one {
@@ -206,6 +246,7 @@ form ul li {
   align-items: flex-start;
   justify-content: space-around;
   flex: 1;
+  gap: 12px 0;
 }
 
 .languages {
@@ -300,6 +341,7 @@ form ul li {
 /* About me Section */
 
 #about-me {
+  position: relative;
   margin-top: 120px;
   padding-bottom: 120px;
   padding-top: 120px;
@@ -313,7 +355,7 @@ form ul li {
   color: #ff6b00;
   font-size: 72px;
   text-align: center;
-  margin-bottom: 12px;
+  align-self: stretch;
 }
 
 .horizontal-seperator-on-dark {
@@ -336,9 +378,9 @@ form ul li {
 }
 
 .about-me-introduction-content {
-  height: 200px;
   margin: 0 24px;
   display: flex;
+  gap: 24px 0;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
@@ -380,6 +422,9 @@ h2 {
 
 .about-myself {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 44px 0;
 }
 
 #skill-list-container {
@@ -435,12 +480,6 @@ h2 {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-}
-
-.footer-icon ul {
-  display: flex;
-  align-self: center;
-  list-style: none;
 }
 
 #contact-me form ul {
