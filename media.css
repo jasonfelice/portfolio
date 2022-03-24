@@ -157,6 +157,32 @@
     .about-section-content {
         align-items: flex-start;
     }
+
+    .end-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 0 24px;
+        margin: 0 50px;
+    }
+
+    .end-wrapper div {
+        height: 100%;
+    }
+
+    #contact-me h2 {
+        margin: 0;
+        text-align: left;
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    #contact-me {
+        padding-top: 130px;
+    }
+
+    form ul .btn {
+        align-self: flex-start;
+    }
 }
 
 @media screen and (min-width: 1500px) {
@@ -200,5 +226,9 @@
 
     .about-myself {
         gap: 0 25rem;
+    }
+
+    .end-wrapper {
+        margin: 0 135px;
     }
 }
