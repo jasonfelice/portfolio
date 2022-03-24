@@ -145,7 +145,7 @@
     background-position: top right;
     top: 5vh;
     left: 9vw;
-    }
+  }
 
   .about-myself {
     flex-direction: row;
@@ -208,8 +208,8 @@
   }
 
   .about-me-introduction-content {
-        margin: 0 140px;
-        width: 40%;
+    margin: 0 140px;
+    width: 40%;
   }
 
   #about-me::after {
