@@ -16,6 +16,25 @@ button {
   display: none;
 }
 
+.social-icons ul {
+  display: flex;
+  list-style: none;
+}
+
+.social-icons a {
+  display: block;
+}
+
+.footer-icon ul li a {
+  filter: invert(70%);
+}
+
+.footer-icon ul {
+  display: flex;
+  align-self: center;
+  list-style: none;
+}
+
 #main-nav ul {
   list-style: none;
   display: flex;
@@ -68,11 +87,6 @@ header {
   width: 40px;
   height: 40px;
   display: flex;
-}
-
-.social-icons ul {
-  display: flex;
-  list-style: none;
 }
 
 form ul li {
@@ -165,10 +179,6 @@ form ul li {
   z-index: 2;
 }
 
-.social-icons a {
-  display: block;
-}
-
 .medium {
   background: url(images/Icons/social/medium.png) no-repeat;
 }
@@ -187,10 +197,6 @@ form ul li {
 
 .github {
   background: url(images/Icons/social/github.png) no-repeat;
-}
-
-.footer-icon ul li a {
-  filter: invert(70%);
 }
 
 /* Portfolio Section */
@@ -474,12 +480,6 @@ h2 {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
-}
-
-.footer-icon ul {
-  display: flex;
-  align-self: center;
-  list-style: none;
 }
 
 #contact-me form ul {
