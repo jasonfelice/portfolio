@@ -335,6 +335,7 @@ form ul li {
 /* About me Section */
 
 #about-me {
+  position: relative;
   margin-top: 120px;
   padding-bottom: 120px;
   padding-top: 120px;
@@ -348,7 +349,7 @@ form ul li {
   color: #ff6b00;
   font-size: 72px;
   text-align: center;
-  margin-bottom: 12px;
+  align-self: stretch;
 }
 
 .horizontal-seperator-on-dark {
@@ -371,9 +372,9 @@ form ul li {
 }
 
 .about-me-introduction-content {
-  height: 200px;
   margin: 0 24px;
   display: flex;
+  gap: 24px 0;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
