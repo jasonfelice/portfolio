@@ -3,23 +3,6 @@
   padding: 0;
 }
 
-/* Animation  */
-
-header a {
-  animation-name: rotate;
-  animation-duration: 2s;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 p {
   font-family: "Inter", sans-serif;
   line-height: 24px;
@@ -27,8 +10,6 @@ p {
 
 button {
   font-family: "Inter", sans-serif;
-  cursor: pointer;
-  transition: all 0.4s ease-in-out;
 }
 
 #main-nav {
@@ -552,9 +533,4 @@ form ul li input {
   width: 99%;
   margin-top: 124px;
   margin-bottom: 25px;
-}
-
-#main-nav ul li a:hover {
-  color: #e05304;
-  transition: all 0.3s;
 }
