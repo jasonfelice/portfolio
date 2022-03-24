@@ -195,6 +195,10 @@ form ul li {
 
 /* Portfolio Section */
 
+#first-work-image-desktop {
+  display: none;
+}
+
 #work {
   font-family: "Crete Round", serif;
 }
@@ -204,6 +208,7 @@ form ul li {
   text-align: center;
   color: #1c1a19;
   font-size: 40px;
+  font-weight: 400;
 }
 
 .horizontal-seperator {
@@ -222,11 +227,10 @@ form ul li {
 /* Frst card */
 
 .first-card {
-  width: 327px;
-  height: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 24px 0;
 }
 
 .content-one {
@@ -236,6 +240,7 @@ form ul li {
   align-items: flex-start;
   justify-content: space-around;
   flex: 1;
+  gap: 12px 0;
 }
 
 .languages {
