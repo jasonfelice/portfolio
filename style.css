@@ -416,6 +416,9 @@ h2 {
 
 .about-myself {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 44px 0;
 }
 
 #skill-list-container {

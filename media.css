@@ -146,6 +146,17 @@
         top: 5vh;
         left: 9vw;
     }
+
+    .about-myself {
+        flex-direction: row;
+        justify-content: center;
+        gap: 0 10rem;
+        z-index: 1;
+    }
+
+    .about-section-content {
+        align-items: flex-start;
+    }
 }
 
 @media screen and (min-width: 1500px) {
@@ -184,6 +195,10 @@
         background-size: 672px 359px;
         background-position: top right;
         top: 5vh;
-        left: 9vw;
+        left: 0;
+    }
+
+    .about-myself {
+        gap: 0 25rem;
     }
 }
