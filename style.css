@@ -11,10 +11,13 @@ header a {
 }
 
 @keyframes rotate {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-
 
 p {
   font-family: "Inter", sans-serif;
@@ -304,7 +307,8 @@ form ul li {
 /* Other Cards */
 
 .cards {
-  background: url(images/portfolio/other-background-placeholder.png) no-repeat center center/cover;
+  background: url(images/portfolio/other-background-placeholder.png) no-repeat
+    center center/cover;
   height: 400px;
   width: 327px;
   box-sizing: border-box;
@@ -475,7 +479,8 @@ h2 {
 .background-graphic {
   width: 150px;
   height: 230px;
-  background: url(images/about-section-Illustration.png) no-repeat center center/cover;
+  background: url(images/about-section-Illustration.png) no-repeat center
+    center/cover;
   align-self: flex-end;
 }
 
@@ -546,4 +551,8 @@ form ul li input {
   width: 99%;
   margin-top: 124px;
   margin-bottom: 25px;
+}
+#main-nav ul li a:hover {
+  color: #e05304;
+  transition: all 0.3s;
 }
