@@ -17,7 +17,7 @@ This webpage has two sections:
 - CSS
 
 ## Live Demo
-[Live Demo Link](https://htmlpreview.github.io/?https://github.com/jasonfelice/portfolio/blob/main/index.html)
+[Live Demo Link](https://jasonfelice.github.io/portfolio/)
 
 To get a local copy up and running follow these simple example steps.
 - Copy this [link](https://github.com/jasonfelice/portfolio)
