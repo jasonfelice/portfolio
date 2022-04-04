@@ -101,6 +101,12 @@ header {
   z-index: 4;
 }
 
+.cross-button {
+  background: url(images/Icons/x-icon.png) no-repeat center center/cover;
+  width: 12px;
+  height: 12px;
+}
+
 .intro-icons {
   list-style: none;
   display: flex;
