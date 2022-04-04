@@ -29,6 +29,10 @@ header a {
   gap: 24px 0;
 }
 
+.social-icons a {
+  display: block;
+}
+
 .mobile-menu ul li a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
@@ -46,10 +50,6 @@ header a {
   height: 1px;
   background-color: #6f6c6b;
   width: 90%;
-}
-
-.social-icons a {
-  display: block;
 }
 
 .footer-icon ul li a {
