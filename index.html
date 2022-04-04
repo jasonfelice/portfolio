@@ -20,21 +20,71 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <title>Jake's Portfolio</title>
+    <style>
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 3;
+            background-color: #3c3a39;
+            padding: 50px 24px;
+            /* display: block; */
+        }
+
+        .mobile-menu ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 24px 0;
+        }
+
+        .mobile-menu ul li a {
+            text-decoration: none;
+            font-family: "Inter", sans-serif;
+            font-size: 32px;
+            line-height: 44px;
+            font-weight: 700;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .mobile-menu ul li::after {
+            content: '';
+            display: block;
+            height: 1px;
+            background-color: #6f6c6b;
+            width: 90%;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <a href="#" id="head_logo">Jake Felice</a>
-        <nav id="menu-button"></nav>
+        <div class="menu-button">
+            <!-- Mobile menu container -->
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="#work">Portfolio</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                </ul>
+            </div>
+            <!-- ^^^ Mobile meny container ^^^ -->
+        </div>
         <nav id="main-nav">
             <ul>
-            <li><a href="#work">Portfolio</a></li>
-            <li><a href="#about-me">About</a></li>
-            <li><a href="#contact-me">Contact</a></li>
-            <li><a class="message-button" href="#contact-me"></a></li>
-        </ul>
+                <li><a href="#work">Portfolio</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+                <li><a class="message-button" href="#contact-me"></a></li>
+            </ul>
         </nav>
+
     </header>
+
     <section id="intro">
         <div id="intro-content">
             <h1>Hey There.<br>I'm Jake</h1>
@@ -42,26 +92,29 @@
             <p>I can help you build a product , feature or website Look through some of my work and experience! If you
                 like what you see and have a project you need coded, don’t hestiate to contact me.</p>
         </div>
-            <ul class="intro-icons">
-                <li><a target="_blank" rel="noopener" href="https://medium.com/" class="social-icons medium"></a>
-                </li>
-                <li><a target="_blank" rel="noopener" href="https://twitter.com/jasonfelice0" class="social-icons twitter"></a></li>
-                <li><a target="_blank" rel="noopener" href="#" class="social-icons logo"></a></li>
-                <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jason-felice-11a5a622b/"
-                        class="social-icons linkedin"></a></li>
-                <li><a target="_blank" rel="noopener" href="https://github.com/jasonfelice" class="social-icons github"></a></li>
-            </ul>
-        
+        <ul class="intro-icons">
+            <li><a target="_blank" rel="noopener" href="https://medium.com/" class="social-icons medium"></a>
+            </li>
+            <li><a target="_blank" rel="noopener" href="https://twitter.com/jasonfelice0"
+                    class="social-icons twitter"></a></li>
+            <li><a target="_blank" rel="noopener" href="#" class="social-icons logo"></a></li>
+            <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jason-felice-11a5a622b/"
+                    class="social-icons linkedin"></a></li>
+            <li><a target="_blank" rel="noopener" href="https://github.com/jasonfelice" class="social-icons github"></a>
+            </li>
+        </ul>
+
     </section>
     <section id="work">
         <div class="heading-and-seperator">
-        <h1 class="heading">My Recent Works</h1>
-        <hr class="horizontal-seperator">
+            <h1 class="heading">My Recent Works</h1>
+            <hr class="horizontal-seperator">
         </div>
         <div class="work-card-container">
             <div class="first-card">
                 <img src="images/portfolio/first-image-placeholder.png" alt="Place holder imaage" id="first-work-image">
-                <img src="images/portfolio/first-image-placeholder-desktop.svg" alt="Place holder imaage" id="first-work-image-desktop">
+                <img src="images/portfolio/first-image-placeholder-desktop.svg" alt="Place holder imaage"
+                    id="first-work-image-desktop">
                 <div class="content-one">
                     <h1>Multi-Post Stories</h1>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
@@ -159,93 +212,100 @@
     <section id="about-me">
         <div class="about-me-introduction">
             <div class="about-me-introduction-content">
-            <h1 class="about-me-heading">About me</h1>
-            <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of
-                my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
-                contact me.</p>
-            <button class="see-project-button" id="resume-button" type="button">Get My Resume</button>
-        </div>
+                <h1 class="about-me-heading">About me</h1>
+                <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some
+                    of
+                    my work and experience! If you like what you see and have a project you need coded, don’t hestiate
+                    to
+                    contact me.</p>
+                <button class="see-project-button" id="resume-button" type="button">Get My Resume</button>
+            </div>
             <div class="background-graphic"></div>
         </div>
         <hr class="horizontal-seperator-on-dark">
-            <div class="about-myself">
-                <div class="language-section">
-                    <div class="list-style" id="languages">
-                        <div class="diamond"></div>
-                        <h2>Language</h2>
-                    </div>
-                    <ul class="about-section-content">
-                        <li>Javascript</li>
-                        <li>Ruby</li>
-                        <li>Html</li>
-                        <li>Css</li>
-                    </ul>
+        <div class="about-myself">
+            <div class="language-section">
+                <div class="list-style" id="languages">
+                    <div class="diamond"></div>
+                    <h2>Language</h2>
                 </div>
-                <div class="language-section">
-                    <div class="list-style" id="frameworks">
-                        <div class="square"></div>
-                        <h2>Frameworks</h2>
-                    </div>
-                    <ul class="about-section-content">
-                        <li>Bootstrap</li>
-                        <li>Ruby on Rails</li>
-                        <li>RSPec</li>
-                        <li>CapyBara</li>
-                        <li>Selenium</li>
-                    </ul>
-                </div>
-                <div class="language-section">
-                    <div class="list-style" id="skills">
-                        <div class="circle"></div>
-                        <h2>Skills</h2>
-                    </div>
-                    <ul class="about-section-content">
-                        <li>Codekit</li>
-                        <li>Github</li>
-                        <li>Codepen</li>
-                        <li>Gitlab</li>
-                        <li>Terminal</li>
-                    </ul>
-                </div>
+                <ul class="about-section-content">
+                    <li>Javascript</li>
+                    <li>Ruby</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                </ul>
             </div>
+            <div class="language-section">
+                <div class="list-style" id="frameworks">
+                    <div class="square"></div>
+                    <h2>Frameworks</h2>
+                </div>
+                <ul class="about-section-content">
+                    <li>Bootstrap</li>
+                    <li>Ruby on Rails</li>
+                    <li>RSPec</li>
+                    <li>CapyBara</li>
+                    <li>Selenium</li>
+                </ul>
+            </div>
+            <div class="language-section">
+                <div class="list-style" id="skills">
+                    <div class="circle"></div>
+                    <h2>Skills</h2>
+                </div>
+                <ul class="about-section-content">
+                    <li>Codekit</li>
+                    <li>Github</li>
+                    <li>Codepen</li>
+                    <li>Gitlab</li>
+                    <li>Terminal</li>
+                </ul>
+            </div>
+        </div>
     </section>
     <section id="contact-me">
         <div class="end-wrapper">
-            <div><h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2></div>
-        <form action="https://formspree.io/f/mdobdvjd" method="post">
-            <ul>
-                <li>
-                    <input type="text" name="fullName" placeholder="Full name" required maxlength="30" >
-                </li>
-                <li>
-                    <input type="email" name="email" placeholder="Email" required>
-                </li>
-                <li>
-                    <textarea name="message" placeholder="Enter text here" required maxlength="500"></textarea>
-                </li>
-                <li class="btn">
-                    <button type="submit" class="see-project-button">Get in touch</button>
-                </li>
-            </ul>
-        </form>
-    </div>
+            <div>
+                <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+                </h2>
+            </div>
+            <form action="https://formspree.io/f/mdobdvjd" method="post">
+                <ul>
+                    <li>
+                        <input type="text" name="fullName" placeholder="Full name" required maxlength="30">
+                    </li>
+                    <li>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </li>
+                    <li>
+                        <textarea name="message" placeholder="Enter text here" required maxlength="500"></textarea>
+                    </li>
+                    <li class="btn">
+                        <button type="submit" class="see-project-button">Get in touch</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
 
-    <hr class="divider">
-    <div class="footer-icon">
-        <ul>
-            <li><a target="_blank" rel="noopener" href="https://medium.com/" class="social-icons medium"></a>
-            </li>
-            <li><a target="_blank" rel="noopener" href="https://twitter.com/jasonfelice0" class="social-icons twitter"></a></li>
-            <li><a target="_blank" rel="noopener" href="#" class="social-icons logo"></a></li>
-            <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jason-felice-11a5a622b/"
-                    class="social-icons linkedin"></a></li>
-            <li><a target="_blank" rel="noopener" href="https://github.com/jasonfelice" class="social-icons github"></a></li>
-        </ul>
-    
-    </div>
+        <hr class="divider">
+        <div class="footer-icon">
+            <ul>
+                <li><a target="_blank" rel="noopener" href="https://medium.com/" class="social-icons medium"></a>
+                </li>
+                <li><a target="_blank" rel="noopener" href="https://twitter.com/jasonfelice0"
+                        class="social-icons twitter"></a></li>
+                <li><a target="_blank" rel="noopener" href="#" class="social-icons logo"></a></li>
+                <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jason-felice-11a5a622b/"
+                        class="social-icons linkedin"></a></li>
+                <li><a target="_blank" rel="noopener" href="https://github.com/jasonfelice"
+                        class="social-icons github"></a></li>
+            </ul>
+
+        </div>
     </section>
-   
-    
+
+
 </body>
 
 </html>

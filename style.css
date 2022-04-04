@@ -10,6 +10,10 @@ header a {
   animation-duration: 2s;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -90,10 +94,11 @@ header {
   text-decoration: none;
 }
 
-#menu-button {
+.menu-button {
   background: url(images/Icons/Union.png) no-repeat center center/cover;
   width: 18px;
   height: 12px;
+  z-index: 4;
 }
 
 .intro-icons {
@@ -453,6 +458,14 @@ h2 {
 }
 
 /* Utility */
+
+.appear {
+  display: block;
+}
+
+.disappear {
+  display: none;
+}
 
 .diamond {
   height: 18px;
