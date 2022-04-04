@@ -11,10 +11,6 @@ header a {
 }
 
 .mobile-menu {
-  display: none;
-}
-
-.mobile-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -23,7 +19,7 @@ header a {
   z-index: 3;
   background-color: #3c3a39;
   padding: 50px 24px;
-  /* display: block; */
+  display: none;
 }
 
 .mobile-menu ul {
@@ -52,8 +48,16 @@ header a {
   width: 90%;
 }
 
+.social-icons a {
+  display: block;
+}
+
+.footer-icon ul li a {
+  filter: invert(70%);
+}
+
 .mobile-menu ul li a:hover {
-  color:#e05304;
+  color: #e05304;
 }
 
 @keyframes rotate {
@@ -84,14 +88,6 @@ button {
 .social-icons ul {
   display: flex;
   list-style: none;
-}
-
-.social-icons a {
-  display: block;
-}
-
-.footer-icon ul li a {
-  filter: invert(70%);
 }
 
 .footer-icon ul {
