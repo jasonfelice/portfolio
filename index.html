@@ -17,26 +17,71 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <script src="script.js" defer></script>
     <title>Jake's Portfolio</title>
+    <style>
+        .project-details-modal-background {
+            backdrop-filter: blur(5px);
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            display: flex;
+        }
+
+        .project-details-modal {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            padding: 16px;
+            height: 85vh;
+            width: 90vw;
+            border: 1px solid green;
+            background-color: #fff;
+            margin: auto;
+        }
+
+        .modal-header h3 {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 44px;
+        }
+
+        .modal-header {
+            align-self: stretch;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .dark-cross-button {
+            background: url(images/Icons/dark-x-icon.png) no-repeat center center/cover;
+            width: 14px;
+            height: 14px;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <a href="#" id="head_logo">Jake Felice</a>
         <i class="menu-button"></i>
-            <!-- Mobile menu container -->
-            <nav class="mobile-menu">
-                <ul>
-                    <li><a href="#work">Portfolio</a></li>
-                    <li><a href="#about-me">About</a></li>
-                    <li><a href="#contact-me">Contact</a></li>
-                </ul>
-            </nav>
-            <!-- ^^^ Mobile meny container ^^^ -->
-        
+        <!-- Mobile menu container -->
+        <nav class="mobile-menu">
+            <ul>
+                <li><a href="#work">Portfolio</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- ^^^ Mobile meny container ^^^ -->
+
         <nav id="main-nav">
             <ul>
                 <li><a href="#work">Portfolio</a></li>
@@ -171,6 +216,21 @@
                 <button class="see-project-button" type="button">See Project</button>
             </div>
         </div>
+        <!-- Modals -->
+        <div class="project-details-modal-background">
+            <div class="project-details-modal">
+                <div class="modal-header">
+                    <h3>Multi Post Stories</h3>
+                    <i class="dark-cross-button"></i>
+                </div>
+                <ul class="languages">
+                    <li><span>html</span></li>
+                    <li><span>Bootstrap</span></li>
+                    <li><span>Ruby on rails</span></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Modals -->
     </section>
     <section id="about-me">
         <div class="about-me-introduction">
