@@ -406,6 +406,36 @@ form ul li {
   background-color: #f4f1f0;
 }
 
+/* Buttons */
+
+.btns {
+  font-family: "Inter", sans-serif;
+  border: 1px solid transparent;
+  line-height: 24px;
+  font-size: 17px;
+  padding: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ff6b00;
+}
+
+.btns:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.btns:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.btns:disabled {
+  border: 1px solid transparent;
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
 /* About me Section */
 
 #about-me {
