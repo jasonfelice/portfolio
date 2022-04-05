@@ -15,6 +15,7 @@ This webpage has two sections:
 
 - HTML
 - CSS
+- javaScript
 
 ## Live Demo
 [Live Demo Link](https://jasonfelice.github.io/portfolio/)

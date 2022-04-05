@@ -60,6 +60,10 @@ header a {
   color: #e05304;
 }
 
+.modal-heading-desktop {
+  display: none;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -72,7 +76,8 @@ header a {
 
 p {
   font-family: "Inter", sans-serif;
-  line-height: 24px;
+  line-height: 20px;
+  font-size: 14px;
 }
 
 button {
@@ -226,6 +231,14 @@ form ul li {
   font-family: "Crete Round", serif;
   margin-bottom: 12px;
   font-weight: 400;
+}
+
+.modal-head h3 {
+  color: #172b4d;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 #intro-content h3 {
@@ -406,6 +419,36 @@ form ul li {
   background-color: #f4f1f0;
 }
 
+/* Buttons */
+
+.btns {
+  font-family: "Inter", sans-serif;
+  border: 1px solid transparent;
+  line-height: 24px;
+  font-size: 17px;
+  padding: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ff6b00;
+}
+
+.btns:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.btns:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.btns:disabled {
+  border: 1px solid transparent;
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
 /* About me Section */
 
 #about-me {
@@ -499,6 +542,73 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 40px 0;
+}
+
+.project-details-modal-background {
+  backdrop-filter: blur(5px);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  z-index: 10;
+}
+
+.project-details-modal {
+  margin: auto;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 15px 16px;
+  width: 90vw;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+  box-shadow: 0 0 3px 0 black;
+}
+
+.modal-head {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dark-cross-button {
+  cursor: pointer;
+  background: url(images/Icons/dark-x-icon.png) no-repeat center center/cover;
+  width: 14px;
+  height: 14px;
+}
+
+.project-modal-header {
+  display: flex;
+  flex-direction: column;
+  gap: 33px 0;
+  align-self: stretch;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.project-details-modal img {
+  height: 25vh;
+  max-height: 400px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-lower-half {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 /* Utility */
