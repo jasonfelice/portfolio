@@ -531,6 +531,65 @@ h2 {
   gap: 40px 0;
 }
 
+.project-details-modal-background {
+  backdrop-filter: blur(5px);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+}
+
+.project-details-modal {
+  margin: auto;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 50px 16px;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+  box-shadow: 0px 0px 3px 0px black;
+
+}
+
+.modal-head h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.modal-head {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dark-cross-button {
+  background: url(images/Icons/dark-x-icon.png) no-repeat center center/cover;
+  width: 14px;
+  height: 14px;
+}
+
+.project-modal-header {
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+  align-self: stretch;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.project-details-modal img {
+  max-height: 400px;
+}
+
 /* Utility */
 
 .appear {

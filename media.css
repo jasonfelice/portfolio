@@ -37,6 +37,14 @@
     gap: 0 24px;
     align-items: flex-start;
   }
+
+  .modal-buttons {
+    justify-content: flex-start;
+  }
+
+  .modal-head {
+    justify-content: space-between;
+  }
 }
 
 @media screen and (min-width: 1024px) {
