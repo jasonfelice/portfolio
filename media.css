@@ -278,5 +278,6 @@
 
   .project-details-modal img {
     width: 100%;
+    height: auto;
   }
 }

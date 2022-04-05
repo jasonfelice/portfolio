@@ -76,7 +76,8 @@ header a {
 
 p {
   font-family: "Inter", sans-serif;
-  line-height: 24px;
+  line-height: 20px;
+  font-size: 14px;
 }
 
 button {
@@ -557,7 +558,7 @@ h2 {
   margin: auto;
   box-sizing: border-box;
   background-color: #fff;
-  padding: 50px 16px;
+  padding: 15px 16px;
   width: 90vw;
   max-width: 1200px;
   display: flex;
@@ -583,7 +584,7 @@ h2 {
 .project-modal-header {
   display: flex;
   flex-direction: column;
-  gap: 40px 0;
+  gap: 33px 0;
   align-self: stretch;
 }
 
@@ -594,6 +595,7 @@ h2 {
 }
 
 .project-details-modal img {
+  height: 25vh;
   max-height: 400px;
 }
 
