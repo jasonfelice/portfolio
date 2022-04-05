@@ -60,6 +60,10 @@ header a {
   color: #e05304;
 }
 
+.modal-heading-desktop {
+  display: none;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -546,6 +550,7 @@ h2 {
   background-color: #fff;
   padding: 50px 16px;
   width: 90vw;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   gap: 24px 0;
@@ -554,6 +559,7 @@ h2 {
 }
 
 .modal-head h3 {
+  color: #172b4d;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 32px;
@@ -588,6 +594,18 @@ h2 {
 
 .project-details-modal img {
   max-height: 400px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-lower-half {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 /* Utility */
