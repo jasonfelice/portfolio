@@ -20,7 +20,7 @@ navItems.forEach((item) => {
   });
 });
 
-seeProjectButtons.forEach(function (i) {
+seeProjectButtons.forEach((i) => {
   i.addEventListener('click', () => {
     document
       .querySelector('.project-details-modal-background')
