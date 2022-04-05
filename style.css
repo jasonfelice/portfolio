@@ -10,6 +10,56 @@ header a {
   animation-duration: 2s;
 }
 
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  background-color: #3c3a39;
+  padding: 50px 24px;
+  display: none;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+}
+
+.social-icons a {
+  display: block;
+}
+
+.mobile-menu ul li a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.mobile-menu ul li::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #6f6c6b;
+  width: 90%;
+}
+
+.footer-icon ul li a {
+  filter: invert(70%);
+}
+
+.mobile-menu ul li a:hover {
+  color: #e05304;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -38,14 +88,6 @@ button {
 .social-icons ul {
   display: flex;
   list-style: none;
-}
-
-.social-icons a {
-  display: block;
-}
-
-.footer-icon ul li a {
-  filter: invert(70%);
 }
 
 .footer-icon ul {
@@ -90,9 +132,16 @@ header {
   text-decoration: none;
 }
 
-#menu-button {
+.menu-button {
   background: url(images/Icons/Union.png) no-repeat center center/cover;
   width: 18px;
+  height: 12px;
+  z-index: 4;
+}
+
+.cross-button {
+  background: url(images/Icons/x-icon.png) no-repeat center center/cover;
+  width: 12px;
   height: 12px;
 }
 
@@ -453,6 +502,14 @@ h2 {
 }
 
 /* Utility */
+
+.appear {
+  display: block;
+}
+
+.disappear {
+  display: none;
+}
 
 .diamond {
   height: 18px;
