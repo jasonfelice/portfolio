@@ -43,5 +43,7 @@ function showError(event) {
     event.preventDefault();
   }
 
-  else errorElement.textContent = '';
+setTimeout(() => {
+  errorElement.textContent = '';
+}, 3000);
 }
