@@ -711,6 +711,14 @@ form ul li input {
 
 .btn {
   align-self: center;
+  align-items: center;
+  gap: 0 15px;
+}
+
+.form-error-message {
+  color: red;
+  background: bisque;
+  border-radius: 5px;
 }
 
 .divider {
