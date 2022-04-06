@@ -3,7 +3,6 @@ const emailInput = document.querySelector('input[type="email"]');
 const errorElement = document.querySelector('.form-error-message');
 const submit = document.querySelector('button[type="submit"]');
 
-
 document.querySelector('.menu-button').addEventListener('click', () => {
   document.querySelector('.mobile-menu').classList.toggle('appear');
   document.querySelector('.menu-button').classList.toggle('cross-button');
@@ -31,8 +30,6 @@ document.querySelector('.dark-cross-button').addEventListener('click', () => {
     .classList.toggle('disappear');
 });
 
-submit.addEventListener('click', showError)
-
 function showError(event) {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
     errorElement.textContent = '*The email should be in lowercase.';
@@ -46,3 +43,5 @@ function showError(event) {
     errorElement.textContent = '';
   }, 3000);
 }
+
+submit.addEventListener('click', showError);
