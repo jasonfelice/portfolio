@@ -34,16 +34,15 @@ document.querySelector('.dark-cross-button').addEventListener('click', () => {
 submit.addEventListener('click', showError)
 
 function showError(event) {
-  if(emailInput.value !== emailInput.value.toLowerCase()) {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
     errorElement.textContent = '*The email should be in lowercase.';
     event.preventDefault();
   }
-  if(!emailInput.validity.valid) {
+  if (!emailInput.validity.valid) {
     errorElement.textContent = '*Please enter the correct email address.';
     event.preventDefault();
   }
-
-setTimeout(() => {
-  errorElement.textContent = '';
-}, 3000);
+  setTimeout(() => {
+    errorElement.textContent = '';
+  }, 3000);
 }
