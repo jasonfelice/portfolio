@@ -35,11 +35,13 @@ submit.addEventListener('click', showError)
 
 function showError(event) {
   if(emailInput.value !== emailInput.value.toLowerCase()) {
-    errorElement.textContent = "*The email should be in lowercase.";
+    errorElement.textContent = '*The email should be in lowercase.';
     event.preventDefault();
   }
   if(!emailInput.validity.valid) {
-    errorElement.textContent = "*Please enter the correct email address.";
+    errorElement.textContent = '*Please enter the correct email address.';
     event.preventDefault();
   }
+
+  else errorElement.textContent = '';
 }
