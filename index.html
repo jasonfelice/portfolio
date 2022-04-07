@@ -287,16 +287,17 @@
             <form action="https://formspree.io/f/mdobdvjd" method="post">
                 <ul>
                     <li>
-                        <input type="text" name="fullName" placeholder="Full name" required maxlength="30">
+                        <input type="text" id="form-name" name="fullName" placeholder="Full name" required maxlength="30">
                     </li>
                     <li>
                         <input type="email" name="email" placeholder="Email" required>
                     </li>
                     <li>
-                        <textarea name="message" placeholder="Enter text here" required maxlength="500"></textarea>
+                        <textarea name="message" id="form-message" placeholder="Enter text here" required maxlength="500"></textarea>
                     </li>
                     <li class="btn">
                         <button type="submit" class="btns">Get in touch</button>
+                        <button type="reset" class="btns">Reset</button>
                         <span class="form-error-message"></span>
                     </li>
                 </ul>
