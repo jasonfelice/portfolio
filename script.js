@@ -4,11 +4,17 @@ const emailInput = document.querySelector('input[type="email"]');
 const fullName = document.getElementById('form-name');
 const messageField = document.getElementById('form-message');
 const submit = document.querySelector('button[type="submit"]');
+const formReset = document.querySelector('button[type="reset"]');
 let formInput = {name:'', email:'', message:''}
 
-fullName.value = JSON.parse(localStorage.contactForm).name;
-emailInput.value = JSON.parse(localStorage.contactForm).email;
-messageField.value = JSON.parse(localStorage.contactForm).message;
+if (localStorage.contactForm) {
+  formInput.name = JSON.parse(localStorage.contactForm).name;
+  formInput.email = JSON.parse(localStorage.contactForm).email;
+  formInput.message = JSON.parse(localStorage.contactForm).message;
+  fullName.value = formInput.name;
+  emailInput.value = formInput.email;
+  messageField.value = formInput.message;
+}
 
 fullName.addEventListener('input', () => {
   formInput.name = fullName.value;
