@@ -1,7 +1,29 @@
+const errorElement = document.querySelector('.form-error-message');
 const seeProjectButtons = document.querySelectorAll('.see-project-button');
 const emailInput = document.querySelector('input[type="email"]');
-const errorElement = document.querySelector('.form-error-message');
+const fullName = document.getElementById('form-name');
+const messageField = document.getElementById('form-message');
 const submit = document.querySelector('button[type="submit"]');
+let formInput = {name:'', email:'', message:''}
+
+fullName.value = JSON.parse(localStorage.contactForm).name;
+emailInput.value = JSON.parse(localStorage.contactForm).email;
+messageField.value = JSON.parse(localStorage.contactForm).message;
+
+fullName.addEventListener('input', () => {
+  formInput.name = fullName.value;
+  localStorage.setItem('contactForm', JSON.stringify(formInput));
+});
+
+emailInput.addEventListener('input', () => {
+  formInput.email = emailInput.value;
+  localStorage.setItem('contactForm', JSON.stringify(formInput));
+});
+
+messageField.addEventListener('input', () => {
+  formInput.message = messageField.value;
+  localStorage.setItem('contactForm', JSON.stringify(formInput));
+});
 
 document.querySelector('.menu-button').addEventListener('click', () => {
   document.querySelector('.mobile-menu').classList.toggle('appear');
