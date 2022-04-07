@@ -5,7 +5,7 @@ const fullName = document.getElementById('form-name');
 const messageField = document.getElementById('form-message');
 const submit = document.querySelector('button[type="submit"]');
 const formReset = document.querySelector('button[type="reset"]');
-let formInput = {name:'', email:'', message:''}
+const formInput = { name: '', email: '', message: '' };
 
 if (localStorage.contactForm) {
   formInput.name = JSON.parse(localStorage.contactForm).name;
@@ -15,6 +15,10 @@ if (localStorage.contactForm) {
   emailInput.value = formInput.email;
   messageField.value = formInput.message;
 }
+
+formReset.addEventListener('click', () => {
+  localStorage.clear();
+});
 
 fullName.addEventListener('input', () => {
   formInput.name = fullName.value;
