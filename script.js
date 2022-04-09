@@ -6,6 +6,33 @@ const messageField = document.getElementById('form-message');
 const submit = document.querySelector('button[type="submit"]');
 const formReset = document.querySelector('button[type="reset"]');
 const formInput = { name: '', email: '', message: '' };
+const myPortfolio = [
+  {
+    card: { title: 'My Title', description: 'Brief description', techList: ['html', 'bootstrap', 'Ruby'], }
+  }];
+
+function addCards(i) {
+  const cardContainer = document.createElement('div');
+  const cardContent = document.createElement('div');
+  const cardTitle = document.createElement('h2');
+  const cardDescription = document.createElement('p');
+  const techContainer = document.createElement('ul');
+  cardContainer.classList.add('cards');
+  cardContent.classList.add('content');
+  techContainer.classList.add('other-cards-info');
+  techContainer.classList.add('languages');
+  cardTitle.textContent = myPortfolio[i].card.title;
+  cardDescription.textContent = myPortfolio[i].card.description;
+  cardContent.appendChild(cardTitle);
+  cardContent.appendChild(cardDescription);
+  cardContent.appendChild(techContainer);
+  cardContainer.appendChild(cardContent);
+  document.querySelector('.work-card-container').appendChild(cardContainer);
+}
+
+for (let i = 0; i < myPortfolio.length; i++) {
+  addCards(i);
+}
 
 if (localStorage.contactForm) {
   formInput.name = JSON.parse(localStorage.contactForm).name;
