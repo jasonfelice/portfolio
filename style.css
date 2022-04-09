@@ -3,13 +3,6 @@
   padding: 0;
 }
 
-/* Animation  */
-
-header a {
-  animation-name: rotate;
-  animation-duration: 2s;
-}
-
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -62,16 +55,6 @@ header a {
 
 .modal-heading-desktop {
   display: none;
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 p {
@@ -379,17 +362,24 @@ form ul li {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding-top: 84px;
 }
 
 .content {
   display: flex;
   width: 295px;
-  margin: 0 16px;
+  padding: 84px 16px 0;
+  background-color: #1c1a195b;
   color: #fff;
   flex-direction: column;
   justify-content: space-evenly;
   flex: 1;
+  transition: all 0.2s ease-in;
+}
+
+.content:hover {
+  background-color: #1c1a1900;
+  opacity: 0;
+  cursor: default;
 }
 
 .see-project-button {
