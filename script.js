@@ -11,6 +11,11 @@ const myPortfolio = [
      title: 'My Title',
      description: 'Brief description',
      techList: ['html', 'bootstrap', 'Ruby']
+  },
+  {
+     title: 'My Title',
+     description: 'Brief description',
+     techList: ['html', 'bootstrap', 'Ruby']
   }
 ];
 
@@ -29,6 +34,7 @@ function addCards(i) {
   button.setAttribute('type', 'button');
   button.classList.add('see-project-button');
   button.textContent = 'See Project';
+  button.classList.add('disappear');
   cardContainer.classList.add('cards');
   cardContent.classList.add('content');
   techContainer.classList.add('other-cards-info');
@@ -46,6 +52,21 @@ function addCards(i) {
 for (let i = 0; i < myPortfolio.length; i++) {
   addCards(i);
 }
+
+const cards = document.querySelectorAll('.cards');
+cards.forEach(card => {
+  card.addEventListener('mouseenter', () => {
+    card.firstChild.classList.toggle('content-hover');
+    card.lastChild.classList.toggle('disappear');
+  });
+});
+
+cards.forEach(card => {
+  card.addEventListener('mouseleave', () => {
+    card.firstChild.classList.toggle('content-hover');
+    card.lastChild.classList.toggle('disappear');
+  });
+});
 
 if (localStorage.contactForm) {
   formInput.name = JSON.parse(localStorage.contactForm).name;
@@ -79,6 +100,7 @@ document.querySelector('.menu-button').addEventListener('click', () => {
   document.querySelector('.mobile-menu').classList.toggle('appear');
   document.querySelector('.menu-button').classList.toggle('cross-button');
 });
+
 const navItems = document.querySelectorAll('.mobile-menu li a');
 
 navItems.forEach((item) => {

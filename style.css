@@ -111,6 +111,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  right: 0;
 }
 
 #head_logo {
@@ -376,7 +380,7 @@ form ul li {
   text-shadow: 0 0 10px black;
 }
 
-.content:hover {
+.content-hover {
   background-color: #1c1a1900;
   opacity: 0;
   cursor: default;
