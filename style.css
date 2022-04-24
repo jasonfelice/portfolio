@@ -207,6 +207,14 @@ form ul li {
   font-size: 32px;
 }
 
+h2 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
 .content h2 {
   font-size: 32px;
   font-weight: 100;
@@ -495,14 +503,6 @@ form ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-h2 {
-  font-size: 32px;
-  text-align: center;
-  font-weight: 600;
-  color: #fff;
-  font-family: "Inter", sans-serif;
 }
 
 #skills h2 {

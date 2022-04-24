@@ -8,15 +8,15 @@ const formReset = document.querySelector('button[type="reset"]');
 const formInput = { name: '', email: '', message: '' };
 const myPortfolio = [
   {
-     title: 'My Title',
-     description: 'Brief description',
-     techList: ['html', 'bootstrap', 'Ruby']
+    title: 'My Title',
+    description: 'Brief description',
+    techList: ['html', 'bootstrap', 'Ruby'],
   },
   {
-     title: 'My Title',
-     description: 'Brief description',
-     techList: ['html', 'bootstrap', 'Ruby']
-  }
+    title: 'My Title',
+    description: 'Brief description',
+    techList: ['html', 'bootstrap', 'Ruby'],
+  },
 ];
 
 function addCards(i) {
@@ -29,7 +29,7 @@ function addCards(i) {
     const list = document.createElement('li');
     list.textContent = myPortfolio[i].techList[k];
     techContainer.appendChild(list);
-  } 
+  }
   const button = document.createElement('button');
   button.setAttribute('type', 'button');
   button.classList.add('see-project-button');
@@ -49,19 +49,19 @@ function addCards(i) {
   document.querySelector('.work-card-container').appendChild(cardContainer);
 }
 
-for (let i = 0; i < myPortfolio.length; i++) {
+for (let i = 0; i < myPortfolio.length; i += 1) {
   addCards(i);
 }
 
 const cards = document.querySelectorAll('.cards');
-cards.forEach(card => {
+cards.forEach((card) => {
   card.addEventListener('mouseenter', () => {
     card.firstChild.classList.toggle('content-hover');
     card.lastChild.classList.toggle('disappear');
   });
 });
 
-cards.forEach(card => {
+cards.forEach((card) => {
   card.addEventListener('mouseleave', () => {
     card.firstChild.classList.toggle('content-hover');
     card.lastChild.classList.toggle('disappear');
