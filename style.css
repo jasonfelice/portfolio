@@ -605,6 +605,24 @@ h2 {
   gap: 16px;
 }
 
+.live-icon {
+  background: url(images/Icons/icon-see-live.svg) no-repeat center center/cover;
+  width: 18px;
+  height: 18px;
+}
+
+.source-icon {
+  background: url(images/Icons/source-icon.svg) no-repeat center center/cover;
+  width: 18px;
+  height: 18px;
+}
+
+.modal-buttons div {
+  align-items: center;
+  gap: 15px;
+  display: flex;
+}
+
 /* Utility */
 
 ::-webkit-scrollbar {
