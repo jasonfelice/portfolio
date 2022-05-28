@@ -11,12 +11,15 @@ export default (i, myPortfolio) => {
     list.textContent = myPortfolio[i].techList[k];
     techContainer.appendChild(list);
   }
+  const buttonWrap = document.createElement('div');
+  buttonWrap.className = 'language-section dim-background';
   const button = document.createElement('button');
   button.setAttribute('type', 'button');
   button.setAttribute('id', `${myPortfolio[i].id}`);
   button.addEventListener('click', (e) => {
     projectPopup(myPortfolio.filter((d) => +e.target.id === d.id));
   });
+  buttonWrap.appendChild(button);
   button.classList.add('see-project-button');
   button.textContent = 'See Project';
   button.classList.add('disappear');
@@ -30,6 +33,6 @@ export default (i, myPortfolio) => {
   cardContent.appendChild(cardDescription);
   cardContent.appendChild(techContainer);
   cardContainer.appendChild(cardContent);
-  cardContainer.appendChild(button);
+  cardContainer.appendChild(buttonWrap);
   document.querySelector('.work-card-container').appendChild(cardContainer);
 };

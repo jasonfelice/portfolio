@@ -764,3 +764,7 @@ form ul li input {
   color: #e05304;
   transition: all 0.3s;
 }
+
+.dim-background {
+  background-color: #1c1a195b;
+}

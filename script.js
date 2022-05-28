@@ -17,14 +17,14 @@ const cards = document.querySelectorAll('.cards');
 cards.forEach((card) => {
   card.addEventListener('mouseenter', () => {
     card.firstChild.classList.toggle('content-hover');
-    card.lastChild.classList.toggle('disappear');
+    card.lastChild.querySelector('button').classList.toggle('disappear');
   });
 });
 
 cards.forEach((card) => {
   card.addEventListener('mouseleave', () => {
     card.firstChild.classList.toggle('content-hover');
-    card.lastChild.classList.toggle('disappear');
+    card.lastChild.querySelector('button').classList.toggle('disappear');
   });
 });
 
