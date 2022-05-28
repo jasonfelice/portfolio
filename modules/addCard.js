@@ -1,3 +1,5 @@
+import projectPopup from './projectPopup.js';
+
 export default (i, myPortfolio) => {
   const cardContainer = document.createElement('div');
   const cardContent = document.createElement('div');
@@ -12,6 +14,9 @@ export default (i, myPortfolio) => {
   const button = document.createElement('button');
   button.setAttribute('type', 'button');
   button.setAttribute('id', `${myPortfolio[i].id}`);
+  button.addEventListener('click', (e) => {
+    projectPopup(myPortfolio.filter((d) => +e.target.id === d.id));
+  });
   button.classList.add('see-project-button');
   button.textContent = 'See Project';
   button.classList.add('disappear');
@@ -20,7 +25,7 @@ export default (i, myPortfolio) => {
   techContainer.classList.add('other-cards-info');
   techContainer.classList.add('languages');
   cardTitle.textContent = myPortfolio[i].title;
-  cardDescription.textContent = myPortfolio[i].description;
+  cardDescription.textContent = myPortfolio[i].briefDes;
   cardContent.appendChild(cardTitle);
   cardContent.appendChild(cardDescription);
   cardContent.appendChild(techContainer);
