@@ -649,7 +649,7 @@ h2 {
 }
 
 .disappear {
-  display: none;
+  visibility: hidden;
 }
 
 .diamond {
@@ -763,4 +763,8 @@ form ul li input {
 #main-nav ul li a:hover {
   color: #e05304;
   transition: all 0.3s;
+}
+
+.dim-background {
+  background-color: #1c1a195b;
 }
