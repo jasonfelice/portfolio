@@ -649,7 +649,7 @@ h2 {
 }
 
 .disappear {
-  display: none;
+  visibility: hidden;
 }
 
 .diamond {
