@@ -546,6 +546,7 @@ h2 {
   top: 0;
   display: flex;
   z-index: 10;
+  overflow: auto;
 }
 
 .project-details-modal {
@@ -586,11 +587,6 @@ h2 {
   display: flex;
   justify-content: space-between;
   gap: 0 20px;
-}
-
-.project-details-modal img {
-  height: 25vh;
-  max-height: 400px;
 }
 
 .modal-content {
