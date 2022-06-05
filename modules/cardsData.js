@@ -4,16 +4,10 @@ const myPortfolio = [
     title: 'Conference Webpage',
     briefDes: 'It\'s an exact clone of Creative Commons summit webpage.',
     techList: ['JavaScript', 'html', 'CSS'],
-    image: './images/portfolio/snapshoot-portfolio.png',
-    detailedDes: 'Detailed des',
-  },
-  {
-    id: 2,
-    title: 'test card',
-    briefDes: 'It\'s a test card.',
-    techList: ['JavaScript', 'html', 'CSS'],
-    image: './',
-    detailedDes: 'Detailed des',
+    image: './images/data/image1.png',
+    detailedDes: 'It is a clone of a creative commons seminar webpage and consists of two pages, both fully responsive for desktop and mobile phones.',
+    liveLink: 'https://jasonfelice.github.io/First-Capstone/',
+    source: 'https://github.com/jasonfelice/First-Capstone/',
   },
 ];
 

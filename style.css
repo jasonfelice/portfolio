@@ -623,6 +623,11 @@ h2 {
   display: flex;
 }
 
+.modal-buttons div a {
+  text-decoration: none;
+  color: #fff;
+}
+
 /* Utility */
 
 ::-webkit-scrollbar {

@@ -1,6 +1,6 @@
 export default (dataObject) => {
   const {
-    title, techList, detailedDes, image, briefDes,
+    title, techList, detailedDes, image, briefDes, liveLink, source
   } = dataObject[0];
   document.querySelector('.modal').innerHTML = `<div class="project-details-modal-background">
     <div class="project-details-modal">
@@ -18,8 +18,8 @@ export default (dataObject) => {
             <div class="modal-lower-half">
                 <p>${detailedDes}</p>
                 <div class="modal-buttons">
-                    <div class="btns"><span>See Live</span> <i class="live-icon"></i></div>
-                    <div class="btns"><span>See Source</span> <i class="source-icon"></i> </div>
+                    <div class="btns"><a target="_blank" href=${liveLink}>See Live</a> <i class="live-icon"></i></div>
+                    <div class="btns"><a target="_blank" href=${source}>See Source</a> <i class="source-icon"></i> </div>
                 </div>
             </div>
         </div>
