@@ -19,6 +19,16 @@ const myPortfolio = [
     liveLink: 'https://luxury-salmiakki-c12cfc.netlify.app/',
     source: 'https://github.com/jasonfelice/Math-Magicians/',
   },
+  {
+    id: 3,
+    title: 'To-Do-list',
+    briefDes: 'A simple to-do list web app.',
+    techList: ['JavaScript', 'html', 'CSS'],
+    image: './images/data/image3.png',
+    detailedDes: 'It is a simple to-do list web app. Users can add tasks to the list and mark them as complete/incomplete. Built with JavaScript.',
+    liveLink: 'https://jasonfelice.github.io/To-Do-list/',
+    source: 'https://github.com/jasonfelice/To-Do-list/',
+  },
 ];
 
 export default myPortfolio;
