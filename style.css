@@ -599,6 +599,10 @@ h2 {
   gap: 16px;
 }
 
+.modal-content img {
+  border: 2px inset #eee;
+}
+
 .modal-lower-half {
   display: flex;
   flex-direction: column;

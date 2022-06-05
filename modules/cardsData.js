@@ -9,6 +9,16 @@ const myPortfolio = [
     liveLink: 'https://jasonfelice.github.io/First-Capstone/',
     source: 'https://github.com/jasonfelice/First-Capstone/',
   },
+  {
+    id: 2,
+    title: 'Math Magicians',
+    briefDes: 'Calculator App built with React.',
+    techList: ['JavaScript', 'html', 'CSS', 'React'],
+    image: './images/data/image2.png',
+    detailedDes: 'Math magicians is a Single Page App (SPA) that allows users to make simple calculations.',
+    liveLink: 'https://luxury-salmiakki-c12cfc.netlify.app/',
+    source: 'https://github.com/jasonfelice/Math-Magicians/',
+  },
 ];
 
 export default myPortfolio;
