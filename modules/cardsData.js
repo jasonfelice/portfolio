@@ -29,6 +29,26 @@ const myPortfolio = [
     liveLink: 'https://jasonfelice.github.io/To-Do-list/',
     source: 'https://github.com/jasonfelice/To-Do-list/',
   },
+  {
+    id: 4,
+    title: 'Budget App',
+    briefDes: 'Keeps track of your spendings.',
+    techList: ['JavaScript', 'html', 'CSS', 'Rails'],
+    image: './images/data/budget-app.png',
+    detailedDes: 'This Rails Budget app allows users to record their transactions for a specific category.',
+    liveLink: 'https://gentle-atoll-76081.herokuapp.com/',
+    source: 'https://github.com/jasonfelice/Budget-App',
+  },
+  {
+    id: 5,
+    title: 'Bookstore',
+    briefDes: 'Add books to a list',
+    techList: ['html', 'CSS', 'React'],
+    image: './images/data/bookstore.png',
+    detailedDes: 'This website is built using React and Redux. Add or remove book from the list that is saved on the API.',
+    liveLink: 'https://deft-babka-260201.netlify.app/',
+    source: 'https://github.com/jasonfelice/Bookstore',
+  },
 ];
 
 export default myPortfolio;
