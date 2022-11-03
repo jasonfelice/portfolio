@@ -36,7 +36,7 @@ const myPortfolio = [
     techList: ['JavaScript', 'html', 'CSS', 'Rails'],
     image: './images/data/budget-app.png',
     detailedDes: 'This Rails Budget app allows users to record their transactions for a specific category.',
-    liveLink: 'https://gentle-atoll-76081.herokuapp.com/',
+    liveLink: 'https://gentle-atoll-76081.herokuapp.com',
     source: 'https://github.com/jasonfelice/Budget-App',
   },
   {
@@ -46,7 +46,7 @@ const myPortfolio = [
     techList: ['html', 'CSS', 'React'],
     image: './images/data/bookstore.png',
     detailedDes: 'This website is built using React and Redux. Add or remove book from the list that is saved on the API.',
-    liveLink: 'https://deft-babka-260201.netlify.app/',
+    liveLink: 'https://deft-babka-260201.netlify.app',
     source: 'https://github.com/jasonfelice/Bookstore',
   },
 ];
