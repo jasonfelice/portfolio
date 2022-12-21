@@ -54,7 +54,7 @@ const myPortfolio = [
     title: 'SpaceX',
     briefDes: 'Book rockets, dragons, and join space missions',
     techList: ['html', 'CSS', 'React', 'Redux'],
-    image: './images/data/space-x.PNG',
+    image: './images/data/space-x.png',
     detailedDes: 'The application fetches data from the SpaceX API and allows users to book rockets, dragons, and join selected space missions.​​',
     liveLink: 'https://brilliant-dolphin-a10874.netlify.app',
     source: 'https://github.com/d2ndjim/SpaceX',
