@@ -49,6 +49,16 @@ const myPortfolio = [
     liveLink: 'https://deft-babka-260201.netlify.app',
     source: 'https://github.com/jasonfelice/Bookstore',
   },
+  {
+    id: 6,
+    title: 'SpaceX',
+    briefDes: 'Book rockets, dragons, and join space missions',
+    techList: ['html', 'CSS', 'React', 'Redux'],
+    image: './images/data/space-x.PNG',
+    detailedDes: 'The application fetches data from the SpaceX API and allows users to book rockets, dragons, and join selected space missions.​​',
+    liveLink: 'https://brilliant-dolphin-a10874.netlify.app',
+    source: 'https://github.com/d2ndjim/SpaceX',
+  },
 ];
 
 export default myPortfolio;
