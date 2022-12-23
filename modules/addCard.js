@@ -24,6 +24,7 @@ export default (i, myPortfolio) => {
   button.textContent = 'See Project';
   button.classList.add('disappear');
   cardContainer.classList.add('cards');
+  cardContainer.classList.add(myPortfolio[i].image.slice(14, -4));
   cardContent.classList.add('content');
   techContainer.classList.add('other-cards-info');
   techContainer.classList.add('languages');
