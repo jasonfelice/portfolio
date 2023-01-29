@@ -2,8 +2,6 @@
 
 # Portfolio
 
-My portfolio webpage
-
 This webpage has two sections:
 1. Header
 2. Title section
