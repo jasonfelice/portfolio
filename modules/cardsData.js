@@ -1,6 +1,6 @@
 const myPortfolio = [
   {
-    id: 1,
+    id: 2,
     title: 'Conference Webpage',
     briefDes: 'It\'s an exact clone of Creative Commons summit webpage.',
     techList: ['JavaScript', 'html', 'CSS'],
@@ -10,7 +10,7 @@ const myPortfolio = [
     source: 'https://github.com/jasonfelice/First-Capstone/',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Math Magicians',
     briefDes: 'Calculator App built with React.',
     techList: ['JavaScript', 'html', 'CSS', 'React'],
@@ -20,7 +20,7 @@ const myPortfolio = [
     source: 'https://github.com/jasonfelice/Math-Magicians/',
   },
   {
-    id: 3,
+    id: 4,
     title: 'To-Do-list',
     briefDes: 'A simple to-do list web app.',
     techList: ['JavaScript', 'html', 'CSS'],
@@ -30,7 +30,7 @@ const myPortfolio = [
     source: 'https://github.com/jasonfelice/To-Do-list/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Bookstore',
     briefDes: 'Add books to a list',
     techList: ['html', 'CSS', 'React'],
@@ -40,7 +40,7 @@ const myPortfolio = [
     source: 'https://github.com/jasonfelice/Bookstore',
   },
   {
-    id: 6,
+    id: 7,
     title: 'SpaceX',
     briefDes: 'Book rockets, dragons, and join space missions',
     techList: ['html', 'CSS', 'React', 'Redux'],
