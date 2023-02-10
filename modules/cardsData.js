@@ -1,11 +1,11 @@
 const myPortfolio = [
   {
     id: 1,
-    title: 'Conference Webpage',
-    briefDes: 'It\'s an exact clone of Creative Commons summit webpage.',
-    techList: ['JavaScript', 'html', 'CSS'],
-    image: './images/data/image1.png',
-    detailedDes: 'It is a clone of a creative commons seminar webpage and consists of two pages, both fully responsive for desktop and mobile phones.',
+    title: 'Instagram clone',
+    briefDes: 'View friend\'s posts and comments.',
+    techList: ['JavaScript', 'html', 'CSS', 'React', 'Firebase'],
+    image: 'https://raw.githubusercontent.com/jasonfelice/ig-clone/develop/screenshots/home.png',
+    detailedDes: 'This is a clone of Instagram. After creating an account, users can create or browse all the posts and comment on them.',
     liveLink: 'https://jasonfelice.github.io/First-Capstone/',
     source: 'https://github.com/jasonfelice/First-Capstone/',
   },
