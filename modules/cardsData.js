@@ -7,7 +7,7 @@ const myPortfolio = [
     image: 'https://raw.githubusercontent.com/jasonfelice/ig-clone/develop/screenshots/home.png',
     detailedDes: 'This is a clone of Instagram. After creating an account, users can create or browse all the posts and comment on them.',
     liveLink: 'https://jasonfelice.github.io/First-Capstone/',
-    source: 'https://github.com/jasonfelice/First-Capstone/',
+    source: 'https://github.com/jasonfelice/ig-clone/',
   },
   {
     id: 2,
