@@ -6,7 +6,7 @@ const myPortfolio = [
     techList: ['JavaScript', 'html', 'CSS', 'React', 'Firebase'],
     image: 'https://raw.githubusercontent.com/jasonfelice/ig-clone/develop/screenshots/home.png',
     detailedDes: 'This is a clone of Instagram. After creating an account, users can create or browse all the posts and comment on them.',
-    liveLink: 'https://jasonfelice.github.io/First-Capstone/',
+    liveLink: 'https://ig-clone-9bf7a.web.app/',
     source: 'https://github.com/jasonfelice/ig-clone/',
   },
   {
