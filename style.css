@@ -328,7 +328,8 @@ h2 {
 .languages {
   list-style: none;
   display: flex;
-  gap: 0 12px;
+  flex-wrap: wrap;
+  gap: 12px;
   font-size: 15px;
   font-weight: 500;
   padding: 0;
