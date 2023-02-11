@@ -4,7 +4,7 @@ const myPortfolio = [
     title: 'Instagram clone',
     briefDes: 'View friend\'s posts and comments.',
     techList: ['JavaScript', 'html', 'CSS', 'React', 'Firebase'],
-    image: 'https://raw.githubusercontent.com/jasonfelice/ig-clone/develop/screenshots/home.png',
+    image: './images/data/ig-clone.PNG',
     detailedDes: 'This is a clone of Instagram. After creating an account, users can create or browse all the posts and comment on them.',
     liveLink: 'https://ig-clone-9bf7a.web.app/',
     source: 'https://github.com/jasonfelice/ig-clone/',
